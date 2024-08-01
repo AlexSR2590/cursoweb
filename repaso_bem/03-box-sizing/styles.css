@@ -1,0 +1,17 @@
+body{
+    background: lightgray;
+}
+.caja{
+    box-sizing: border-box;
+    width: 300px;
+    height: 180px;
+    margin: 30px auto;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
