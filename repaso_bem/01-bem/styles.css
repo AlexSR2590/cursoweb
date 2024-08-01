@@ -1,0 +1,76 @@
+/*
+BEM = Bloque Elemento Modificador
+
+se usa siempre class no Id.
+
+class = aplicar estilos
+id = aplicar funcionalidad en (javascript)
+
+.bloque
+.bloque__elemento
+.bloque__elemento--modificador
+
+*/
+/*
+//Forma clásica
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cards .card{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cards .card h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cards .card a{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+*/
+
+/* BEM */
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cards__card{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+.card__title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card__link{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+
+.card__link--rojo{
+    background-color: red;
+}
