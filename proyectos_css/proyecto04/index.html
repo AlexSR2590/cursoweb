@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../00-recursos-frecuentes-css/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../00-recursos-frecuentes-css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Proyecto 4 CSS</title>
+</head>
+<body>
+    <div class="layout">
+        <header class="layout__header">
+            <div class="header__top">
+                <i class="fa-solid fa-language"></i>
+                <h3 class="header__title">Traductor</h3>
+            </div>
+            <div class="header__bottom">
+                <form class="header__search">
+                    <div class="search__control">
+                        <input type="search" class="search__input" name="search" placeholder="Introduce una palabra"/>
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                    </div>
+                    <select name="languages" class="search__select">
+                        <option class="search__option" value="esp">Español</option>
+                        <option class="search__option" value="ing">Ingles</option>
+                        <option class="search__option" value="ger">Aleman</option>
+                        <option class="search__option" value="fre">Frances</option>
+                    </select>
+                </form>
+            </div>
+        </header>
+        <main class="layout__word">
+            <h1 class="word__title">
+                Ordenador
+            </h1>
+            <a href="#" class="word__btn">
+                <i class="fa-solid fa-play"></i> 
+            </a>
+        </main>
+        <section class="layout__definitions">
+            <h3 class="definitions__title">
+                <span>Definciones</span>
+            </h3>
+            <ul class="definitions__list">
+                <li class="list__item">
+                    <p class="list__definition">
+                        <b>Ordenador</b>: máquina electrónica digital programable que ejecuta una serie de comandos para procesar los datos de entrada, obteniendo convenientemente información que posteriormente se envía a las unidades de salida.
+                    </p>
+                </li>
+                <li class="list__item">
+                    <p class="list__definition">
+                        <b>Ordenador compatible</b>: capacidad que tienen dos ordenadores de intercambiar información uno con otro simultáneamente.
+                    </p>
+                </li>
+                <li class="list__item">
+                    <p class="list__definition">
+                        <b>Ordenador personal</b>: tipo de microcomputadora diseñada en principio para ser utilizada por una sola persona. Habitualmente, la sigla PC se refiere a las computadoras IBM PC compatibles. Una computadora personal es generalmente de tamaño medio y es usada por un solo usuario (aunque hay sistemas operativos que permiten varios usuarios simultáneamente, lo que es conocido como multiusuario).
+                    </p>
+                </li>
+                <li class="list__item">
+                    <p class="list__definition">
+                        <b>Ordenador portátil</b>: Una computadora portátil, computador portátil u ordenador portátil, a veces simplemente conocido como portátil o por los anglicismos laptop y notebook es una computadora personal que se puede mover o transportar con relativa facilidad.
+                    </p>
+                </li>
+            </ul>
+            <article class="definitions__syn">
+                <h4 class="syn__title">Sinonimos:</h4>
+                <span class="syn__item">Computador</span>
+                <span class="syn__item">Procesadora</span>
+                <span class="syn__item">Computadora</span>
+            </article>
+        </section>
+        <footer class="layout__footer">
+            <p class="footer__text">Todos los derechos reservados ASR &copy;</p>
+        </footer>
+    </div>
+</body>
+</html>
