@@ -1,0 +1,94 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-weight: 1.6rem;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-color: #F8EDEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout__card{
+    display: flex;
+    flex-direction: row;
+    max-width: 86rem;
+    height: 30rem;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 1rem 0 0 1rem;
+}
+.card__container-img{
+    flex-basis: 40%;
+    height: 100%;
+}
+.card__content{
+    flex-basis: 60%;
+    height: 100%;
+    padding: 3rem 4rem;
+}
+.card__title{
+    color: #476B8F;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.4;
+}
+.card__text{
+    color: #8E8D8E;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+.card__user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.user__container-img{
+    width: 5rem;
+    height: 5rem;
+}
+.user__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.user__info{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem; 
+    align-items: center;
+}
+.user__container-name{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.user__name{
+    font-size: 1.5rem;
+    color: #434842;
+    font-weight: 500;
+}
+.user__date{
+    font-size: 1.2rem;
+    color: #8E8D8E;
+}
+.user__icon{
+    display: flex;
+    background-color: #1691E8;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;   
+}
+.fa-comment{
+    color: white;
+    font-size: 2rem;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.articles{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}

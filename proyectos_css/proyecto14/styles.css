@@ -1,0 +1,100 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-weight: 1.6rem;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.layout{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0B3D9;
+}
+.layout__main{
+    min-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__container{
+    background-color: #151932;
+    min-width: 45rem;
+    height: 45rem;
+    text-align: center;
+    border-radius: 100%;
+    padding: 3rem;
+}
+.cointainer__crono{
+    border: 10px solid #99F870;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #D6DFFE;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-left-color: transparent;
+}
+.crono__time{
+    font-size: 8rem;
+    font-weight: 700;
+    color: #D6DFFE;
+}
+.crono__btns{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.btns__start,
+.btns__pause{
+    background-color:#99F870;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 7px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor:  pointer;
+    transition: all 300ms ease;
+}
+.btns__start:hover,
+.btns__pause:hover{
+    background-color: #82a075;
+    color: #302e2e;
+}
+.main__nav{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    margin-top: 2.5rem;
+    gap: 55px;
+    background-color: #151932;
+    padding: 8px;
+    border-radius: 150px;
+    justify-content: space-between;
+}
+.nav__item{
+    background-color: #151932;
+    color: #8A8C99;
+    font-size: 1.5rem;
+    padding: 13px;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor:  pointer;
+    transition: all 300ms ease-in-out;
+    width: 100%;
+    text-align: center;
+}
+.nav__item:hover{
+    background-color: #99F870;
+    color: #000;
+}

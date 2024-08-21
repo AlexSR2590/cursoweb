@@ -1,0 +1,22 @@
+@font-face{
+    font-family: OpenSansLocal;
+    src: url(fonts/Abel_Lato_Montserrat_Open_Sans/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    background-color: aliceblue;
+}
+.title{
+    font-size: 5rem;
+    font-family: "Roboto";
+}
+.subtitle{
+    font-size: 3rem;
+    font-family: "OpenSansLocal";
+}
+.text{
+    font-size: 3rem;
+}
