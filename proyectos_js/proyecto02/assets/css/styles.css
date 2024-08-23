@@ -1,0 +1,129 @@
+html{
+    font-size: 10px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfcbf1;
+}
+.layout{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px #888585;
+
+}
+.layout__header{
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #018501;
+    color: white;
+    font-weight: bold;
+}
+.layout__subtitle{
+    font-size: 2rem;
+    font-weight: 500;
+}
+p{
+    font-size: 1.7rem;
+}
+.layout__container{
+    background-color: #dfdfdf;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.layout__level{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    text-align: center;
+}
+.level__easy{
+    width: 6rem;
+    height: 6rem;
+    background-color: #018501;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #018501;
+    transition: all 300ms ease;
+}
+.level__medium{
+    width: 6rem;
+    height: 6rem;
+    background-color: #d6c207;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d6c207;
+    transition: all 300ms ease;
+}
+.level__difficult{
+    width: 6rem;
+    height: 6rem;
+    background-color: #cf0606;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#cf0606;
+    transition: all 300ms ease;
+}
+.text__facil{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.text__medio{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.text__dificil{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.level__easy:hover{
+    color: white;
+}
+.level__medium:hover{
+    color: white;
+}
+.level__difficult:hover{
+    color: white;
+}
+.level__title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4e4e4e;
+}
+.layout__result-js{
+    border: 2px solid #696969;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.result__title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4e4e4e;
+}
+#result{
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
